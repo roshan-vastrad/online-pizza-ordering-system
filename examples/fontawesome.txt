@@ -1,0 +1,29 @@
+////////////  App.js
+import React from 'react';
+import "./components/FontAwesomeIcons"
+import {I} from './components/common';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+const App = () => {
+  return (
+    <div>
+      <I> <FontAwesomeIcon icon={["fas", "user"]}  /> </I>
+      <I> <FontAwesomeIcon icon={["fas", "lock"]}  /> </I>
+      <I>  <FontAwesomeIcon icon={["fab", "twitter"]} /></I>
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+
+/////////////  index.js >> FontAwesomeIcons >> components
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas  } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add( fas , fab )

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Noto Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/* .input-field input::placeholder{
+  color: #aaa;
+  font-weight: 500;
+} */
+
+
+#yesir{
+  font-family: 'Neonderthaw', cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  /* margin-left: 80px; */
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 70px; */
+}
+
+.n1{
+  margin-left: 68px;
+}
+.img-1{
+  margin-left: 9px;
+}
+
+.links{
+  height: 40px;
+  width: 90px;
+  border: none;
+  /* border-radius: 20px; */
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  margin-right: 30px;
+  align-items:center;
+}
+
